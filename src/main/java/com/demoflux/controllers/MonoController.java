@@ -14,6 +14,7 @@ import java.util.List;
 @Slf4j
 public class MonoController {
 
+    //ubah 1
     @GetMapping("mono/sample")
     public Mono<Integer> sample() {
         Mono.just(5)
